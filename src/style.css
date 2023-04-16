@@ -53,7 +53,7 @@ header {
     border: 1px solid thistle;
     border-radius: 10px;
     flex-direction: column;
-    gap: 50px;
+    gap: 20px;
 }
 
 .box img{
@@ -67,9 +67,22 @@ header {
 .box .text{
     height: 100%;
     background-color:rgb(212, 230, 237);
-    margin: 30px;
+    margin: 0px 30px 30px 30px;
     padding: 5px;
     box-shadow: 3px 5px 10px 5px plum;
     border: 1px solid thistle;
     border-radius: 10px;
+}
+
+.box .name{
+    height: 10%;
+    background-color:rgb(224, 216, 225);
+    padding: 5px;
+    margin: 0px 0px 0px 0px;
+    box-shadow: 3px 5px 10px 5px plum;
+    border: 1px solid thistle;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
