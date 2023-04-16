@@ -1,54 +1,75 @@
-body {
-    background-image: url(https://cdn.discordapp.com/attachments/695315418163839158/1094763484178297014/9D60BEA4-3E50-4EAC-958D-7CF9C8E59FB0.png);
-    background-position: center;    
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
-}
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
 
-h1 {
-    margin:auto;
-    width: 50%;
-    text-align: center;
-    color:white;
-}
-
-.link {
-    position:absolute;
+body,html {
+    background-color:powderblue;
     width: 100%;
-    bottom: 0;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.welcome {
+    font-family: 'Short Stack', cursive;
+    color:midnightblue;
+    border: 1px solid thistle;
+    border-radius: 10px;
+    background-color:thistle ;
     text-align: center;
-    color:white;
+    padding: 8px;
+    box-shadow: 3px 5px 10px 5px plum;
 }
 
-a:link, a:visited, a:hover, a:active {
-    color:pink;
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+    flex-direction: column;
+    gap:50px;
+    padding-top: 100px;
 }
 
-.video {
-    position: absolute;
-    width:50%;
-    margin:auto;
+.biography {
+    display: flex;
+    gap: 40px;
+    height: 60%;
+    width: 90%;
 }
 
-
-.video { 
-    float: none;
-    clear: both;
-    width: 700px;
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 25px;
-    height: 0;
-margin: 0 auto;
+.box {
+    background-color:thistle ;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    box-shadow: 3px 5px 10px 5px plum;
+    font-family: 'Short Stack', cursive;
+    color:midnightblue;
+    border: 1px solid thistle;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 50px;
 }
-     iframe {
-        position: absolute;
-        top: 25%;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    max-width: 700px;
-    max-height: 400px;
-    }
 
+.box img{
+    min-height: 120px;
+    width: 120px;
+    box-shadow: 3px 5px 10px 5px plum;
+    border: 1px solid thistle;
+    border-radius: 10px;
+}
+
+.box .text{
+    height: 100%;
+    background-color:rgb(212, 230, 237);
+    margin: 30px;
+    padding: 5px;
+    box-shadow: 3px 5px 10px 5px plum;
+    border: 1px solid thistle;
+    border-radius: 10px;
+}
