@@ -54,6 +54,12 @@ header {
     border-radius: 10px;
     flex-direction: column;
     gap: 20px;
+    transition: 250ms ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.07);
+    background-color: rgb(207, 167, 221);
 }
 
 .box img{
@@ -86,3 +92,5 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+
